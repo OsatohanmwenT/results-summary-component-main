@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&family=Montserrat:wght@700&family=Poppins:wght@200&family=Reem+Kufi:wght@500&display=swap');
+:root{
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .container-item{
+    margin-top: 100px;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 0px 24px 0px 0px;
+    width: fit-content;
+    gap: 40px;
+    box-shadow: lightgray 8px 6px 10px -3px;
+    border-radius: 30px;
+    border: 10px 10px 10px 10px;
+}
+.container-item .left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(180deg, #7857ff 0%, #2e2be9 100%);
+    color: white;
+    border-radius: 20px;
+    padding: 16px 32px;
+}
+.container-item .left h4{
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.container-item .left .circle{
+    background:linear-gradient(180deg, #4e21ca 0%, #2421ca00 100%);
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.container-item .left .circle h3{
+    font-size: 28px;
+}
+.container-item .left h3{
+    
+    font-size: 24px;
+}
+.container-item .left p{
+    margin: 0 auto;
+    font-size: 16px;
+    width: 200px;
+}
+.container-item .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container-item .right .sum-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    gap: 60px;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+.container-item .right .sum-item .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.container-item .right .sum-item .score{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.container-item .right .one{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.container-item .right .two{
+    background-color:  hsla(39, 100%, 56%, 0.1);
+}
+.container-item .right .three{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.container-item .right .four{
+    background-color:  hsla(234, 85%, 45%, 0.1);
+}
+.container-item .score span{
+    color: rgb(128, 128, 128);
+}
